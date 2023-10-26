@@ -10,7 +10,7 @@ Dc comics
 
 @include ('layouts.header')
 
-@include ('layouts.main')
+@include ('layouts.partials.album_card')
 
 @include ('layouts.footer')
 

@@ -19,10 +19,16 @@
                             <a class="nav-link active" aria-current="page" href="#">{{ $section }}</a>
                         </li>
                         @endforeach
+
+                        <li class="nav-item text-uppercase eb_nav-section">
+                            <a class="nav-link active" aria-current="page" href="#">shop &blacktriangledown;</a>
+                        </li>
                     </ul>
                 </div>
 
             </div>
+
+            <input type="text" name="search" id="eb_search" placeholder="Search &#128269;">
         </nav>
     </div>
 

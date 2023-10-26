@@ -123,7 +123,6 @@ return [
         'videos',
         'fans',
         'news',
-        'shop'
     ],
 
     'socials' => [

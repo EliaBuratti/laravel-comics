@@ -1,5 +1,18 @@
 @use '../variables.scss' as *;
 
+#eb_search {
+    border: none;
+    border-bottom: 3px solid $primary-color;
+    text-align: end;
+    outline-color: transparent;
+    padding-left: 0.5rem;
+}
+
+::placeholder {
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
 .eb_logo img {
     width: 4rem;
     height: 4rem;
@@ -7,9 +20,12 @@
 
 .eb_nav-section {
 
+    height: 5.6rem;
+
     li {
         font-size: 0.9rem;
         font-weight: bolder;
+        padding: 0 0.5rem;
 
         a {
             padding-bottom: 2rem;
