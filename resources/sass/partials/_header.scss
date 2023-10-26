@@ -1,0 +1,26 @@
+@use '../variables.scss' as *;
+
+.eb_logo img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.eb_nav-section {
+
+    li {
+        font-size: 0.9rem;
+        font-weight: bolder;
+
+        a {
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+        }
+
+        :hover {
+
+            border-bottom: 5px solid $primary-color;
+            color: $primary-color;
+        }
+
+    }
+}

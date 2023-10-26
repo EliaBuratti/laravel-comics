@@ -1,0 +1,68 @@
+@use '../variables.scss' as *;
+
+.info-shop {
+    width: 100%;
+    background-image: url(../../images/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .eb_logo {
+        background: url(../../images/dc-logo-bg.png) right no-repeat;
+    }
+
+    .eb_container-lists {
+        column-count: 3;
+        column-gap: 1rem;
+    }
+
+    /* mansory layout */
+    .eb_list {
+        margin: 0;
+        display: grid;
+        grid-template-rows: auto auto;
+        break-inside: avoid;
+    }
+
+    /* end mansory layout */
+
+}
+
+ul>li:first-child {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $white-color;
+
+}
+
+ul>li {
+    text-transform: capitalize;
+    font-size: 0.9rem;
+
+    a {
+        color: $list-color;
+    }
+}
+
+footer {
+    background-color: $bg-footer;
+
+    .register button {
+        background-color: transparent;
+        border: 2px solid $primary-color;
+        color: $white-color;
+        padding: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .social {
+
+        h2 {
+            color: $primary-color ;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+
+}
