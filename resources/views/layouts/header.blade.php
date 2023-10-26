@@ -14,7 +14,6 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ">
-
                         @foreach(Config::get('db_comic.navSections') as $section)
                         <li class="nav-item text-uppercase eb_nav-section">
                             <a class="nav-link active" aria-current="page" href="#">{{ $section }}</a>

@@ -1,0 +1,98 @@
+@use '../variables.scss' as *;
+
+
+.eb_jumbotron {
+
+
+
+    img {
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+        object-position: top center;
+
+    }
+
+    h3 {
+        text-transform: uppercase;
+        width: fit-content;
+        font-weight: bold;
+        font-size: 1.6rem;
+        padding: 1rem 3rem;
+        background-color: $primary-color;
+        color: $white-color;
+        position: absolute;
+        top: -5rem;
+        left: 0;
+    }
+
+
+    /*     &::before {
+        content: 'CURRENT SERIES';
+        font-weight: bold;
+        font-size: 1.6rem;
+        padding: 1rem 3rem;
+        background-color: $primary-color;
+        color: $white-color;
+        margin-left: 15%;
+    } */
+
+    /*     background-image: url(../assets/img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 20%; */
+
+
+    .eb_cards {
+        background-color: $bg-thumb-card;
+
+        >div {
+            position: relative;
+        }
+
+        .load_more {
+            margin-left: 50%;
+            transform: translate(-50%);
+            color: $white-color;
+            background-color: $primary-color;
+            border: none;
+            padding: 0.5rem 3rem;
+        }
+
+    }
+
+}
+
+
+.eb_card {
+    max-width: 10rem;
+    color: $white-color;
+    text-transform: uppercase;
+    word-wrap: break-word;
+
+    img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+}
+
+
+
+.more {
+    background-color: $primary-color;
+
+    & img {
+        height: 3.5rem;
+    }
+
+    & span {
+        font-size: 1rem;
+    }
+}
+
+.more_content {
+    height: 8rem;
+    background-color: $black-color;
+    color: $white-color;
+}

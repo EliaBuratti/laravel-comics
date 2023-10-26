@@ -19,7 +19,8 @@
         :hover {
 
             border-bottom: 5px solid $primary-color;
-            color: $primary-color;
+            color: $primary-color !important;
+
         }
 
     }
