@@ -174,7 +174,7 @@ return [
         ]
 
     ],
-
+    /* è doppio non serve 
     'comic_details' =>  [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
@@ -285,6 +285,7 @@ return [
             "type" => "graphic novel",
         ]
     ],
+    */
 
     'cards' => [
         'digital comics' => 'buy-comics-digital-comics.png',

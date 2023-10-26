@@ -1,0 +1,75 @@
+@use '../variables.scss' as *;
+
+.eb_image-comic {
+    height: 3rem;
+    background-color: $primary-color;
+
+
+    .eb_cover {
+        bottom: 1rem;
+        border: 1px solid $white-color;
+        color: $white-color;
+        font-size: 0.75rem;
+
+        .eb_category {
+            left: 0;
+            top: 0;
+            background-color: $primary-color-light;
+        }
+
+        .eb_gallery {
+            text-align: center;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: $primary-color-light;
+        }
+
+        img {
+            width: 100%;
+            aspect-ratio: 1 / 2;
+            object-fit: cover;
+        }
+    }
+}
+
+.eb_banner {
+    background-color: $bg-banner;
+    color: $white-color;
+    font-size: 1rem;
+    border-bottom: 1px solid $black-color ;
+
+    .eb_valute,
+    .eb_check {
+        opacity: 0.6;
+    }
+
+    .eb_price {
+        border-right: 1px solid $black-color;
+    }
+}
+
+.eb_adv {
+
+    img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+}
+
+
+.eb_credits {
+    background-color: $bg-credits;
+
+    .eb_row {
+        display: flex;
+        margin: 0.5rem 2rem 0.5rem 0.5rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+
+        p {
+            width: 60%;
+            margin-left: auto;
+        }
+    }
+}
